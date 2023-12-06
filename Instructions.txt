@@ -1,0 +1,19 @@
+MongoDB
+=================================
+To start MongoDB Client run:
+	> docker exec -it <container_id> mongosh admin -u rootusername -p 'rootpassword'
+	OR
+	> docker exec -it mongodb_server mongosh admin -u root_mongo_user -p 'root_mongo_user_password'
+Now you should be connected to MongoDB Client.
+*) Test to check if the Mongo Client can talk to Mongo Server:
+	> db.version()
+	OR
+	> show dbs
+*) To exit from mongo shell use:
+	> exit	
+*) To access Mongo-Express (UI Client for MongoDB): http://localhost:8081
+Username: admin
+Password: admin123
+
+
+
